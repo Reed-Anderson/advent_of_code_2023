@@ -6,4 +6,5 @@ fn main() {
     days::day_01_b();
     println!("Day 02");
     days::day_02_a();
+    days::day_02_b();
 }
