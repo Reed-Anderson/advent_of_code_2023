@@ -1,7 +1,7 @@
 use std::collections::{HashMap, HashSet};
 use std::fs;
 
-pub fn day_03_a() {
+pub fn day_03() {
     if let Ok(content) = fs::read_to_string("src/days/day_03_input.txt") {
         let (symbol_lookup, part_numbers, gear_coords) = create_lookups_from_input(&content);
 

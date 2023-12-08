@@ -8,6 +8,7 @@ fn main() {
     days::day_02_a();
     days::day_02_b();
     println!("Day 03");
-    days::day_03_a();
-    // days::day_03_b();
+    days::day_03();
+    println!("Day 04");
+    days::day_04();
 }
